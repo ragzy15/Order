@@ -1,0 +1,1359 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/bever"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_column="1"
+                android:text="TextView2525255525252"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_column="2"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_column="3"
+                android:text="0000"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_column="4"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_column="5"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:gravity="center"
+                android:text="Mango Juice"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/d1"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="4"
+                android:onClick="decrement"
+                android:tag="1"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/i1"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="6"
+                android:elevation="0dp"
+                android:tag="1"
+                android:text="+"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:gravity="left"
+                android:text="₹100" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:gravity="center"
+                android:text="Apple Juice"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/d2"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="4"
+                android:onClick="decrement"
+                android:tag="2"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/i2"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="6"
+                android:elevation="0dp"
+                android:onClick="increment"
+                android:tag="2"
+                android:text="+"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:gravity="left"
+                android:text="₹80" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:gravity="center"
+                android:text="Lime Juice"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/d3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="4"
+                android:onClick="decrement"
+                android:tag="3"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/i3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="6"
+                android:elevation="0dp"
+                android:onClick="increment"
+                android:tag="3"
+                android:text="+"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:gravity="left"
+                android:text="₹60" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:gravity="center"
+                android:text="Oreo Shake"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/d4"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="4"
+                android:onClick="decrement"
+                android:tag="4"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/i4"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="6"
+                android:elevation="0dp"
+                android:onClick="increment"
+                android:tag="4"
+                android:text="+"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:gravity="left"
+                android:text="₹140" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:gravity="center"
+                android:text="Chocolate Shake"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/d5"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="4"
+                android:onClick="decrement"
+                android:tag="5"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/i5"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="6"
+                android:elevation="0dp"
+                android:onClick="increment"
+                android:tag="5"
+                android:text="+"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:gravity="left"
+                android:text="₹120" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/starter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_column="1"
+                android:text="TextView2525255525252"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_column="2"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_column="3"
+                android:text="0000"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_column="4"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_column="5"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:gravity="center"
+                android:text="Paneer Tikka"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/d6"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="4"
+                android:onClick="decrement"
+                android:tag="6"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/i6"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="6"
+                android:elevation="0dp"
+                android:onClick="increment"
+                android:tag="6"
+                android:text="+"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:gravity="left"
+                android:text="₹150" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:gravity="center"
+                android:text="Chicken Wings"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/d7"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="4"
+                android:onClick="decrement"
+                android:tag="7"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/i7"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="6"
+                android:elevation="0dp"
+                android:onClick="increment"
+                android:tag="7"
+                android:text="+"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:gravity="left"
+                android:text="₹200" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:gravity="center"
+                android:text="Fish Sticks"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/d8"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="4"
+                android:onClick="decrement"
+                android:tag="8"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/i8"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="6"
+                android:elevation="0dp"
+                android:onClick="increment"
+                android:tag="8"
+                android:text="+"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:gravity="left"
+                android:text="₹200" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:gravity="center"
+                android:text="Garlic Prawns"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/d9"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="4"
+                android:onClick="decrement"
+                android:tag="9"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/i9"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="6"
+                android:elevation="0dp"
+                android:onClick="increment"
+                android:tag="9"
+                android:text="+"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:gravity="left"
+                android:text="₹220" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:gravity="center"
+                android:text="Dry Mushroom"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/d10"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="4"
+                android:onClick="decrement"
+                android:tag="10"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/i10"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="6"
+                android:elevation="0dp"
+                android:onClick="increment"
+                android:tag="10"
+                android:text="+"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:gravity="left"
+                android:text="₹130" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/main_course"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_column="1"
+                android:text="TextView2525255525252"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_column="2"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_column="3"
+                android:text="0000"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_column="4"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_column="5"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:gravity="center"
+                android:text="Veg Taco"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/d11"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="4"
+                android:onClick="decrement"
+                android:tag="11"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/i11"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="6"
+                android:elevation="0dp"
+                android:onClick="increment"
+                android:tag="11"
+                android:text="+"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:gravity="left"
+                android:text="₹350" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:gravity="center"
+                android:text="Beef Taco"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/d12"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="4"
+                android:onClick="decrement"
+                android:tag="12"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/i12"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="6"
+                android:elevation="0dp"
+                android:onClick="increment"
+                android:tag="12"
+                android:text="+"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:gravity="left"
+                android:text="₹400" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:gravity="center"
+                android:text="Veg Pizza"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/d13"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="4"
+                android:onClick="decrement"
+                android:tag="13"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/i13"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="6"
+                android:elevation="0dp"
+                android:onClick="increment"
+                android:tag="13"
+                android:text="+"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/text13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:gravity="left"
+                android:text="₹400" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:gravity="center"
+                android:text="Chicken Pizza"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/d14"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="4"
+                android:onClick="decrement"
+                android:tag="14"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/i14"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="6"
+                android:elevation="0dp"
+                android:onClick="increment"
+                android:tag="14"
+                android:text="+"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/text14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:gravity="left"
+                android:text="₹450" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:gravity="center"
+                android:text="Pasta"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/d15"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="4"
+                android:onClick="decrement"
+                android:tag="15"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/i15"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="6"
+                android:elevation="0dp"
+                android:onClick="increment"
+                android:tag="15"
+                android:text="+"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/text15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:gravity="left"
+                android:text="₹350" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/desert"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_column="1"
+                android:text="TextView2525255525252"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_column="2"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_column="3"
+                android:text="0000"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_column="4"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_column="5"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:gravity="center"
+                android:text="Red Velvet Cake"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/d16"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="4"
+                android:onClick="decrement"
+                android:tag="11"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/i16"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="6"
+                android:elevation="0dp"
+                android:onClick="increment"
+                android:tag="11"
+                android:text="+"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/text16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:gravity="left"
+                android:text="₹200" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:gravity="center"
+                android:text="Ice Cream"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/d17"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="4"
+                android:onClick="decrement"
+                android:tag="12"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/i17"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="6"
+                android:elevation="0dp"
+                android:onClick="increment"
+                android:tag="12"
+                android:text="+"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/text17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:gravity="left"
+                android:text="₹100" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:gravity="center"
+                android:text="Chocolate Brownie"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/d18"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="4"
+                android:onClick="decrement"
+                android:tag="13"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/i18"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_column="6"
+                android:elevation="0dp"
+                android:onClick="increment"
+                android:tag="13"
+                android:text="+"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/text18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:gravity="left"
+                android:text="₹150" />
+        </TableRow>
+
+
+    </TableLayout>
+</FrameLayout>
